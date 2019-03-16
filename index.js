@@ -12,7 +12,7 @@ function nowServing (katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
-  var line[]
+  var line = []
   if (katzDeliLine > []) {
     for(var i = 0; i < katzDeliLine.length; i++) {
       line.push(`${i = 1}. ${katzDeliLine[i]}`)
